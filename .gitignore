@@ -1,0 +1,37 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+.Python
+db.sqlite3
+media/
+
+# Environment variables
+.env
+
+# VSCode settings (optional, for local editor settings)
+.vscode/
+
+# Django migrations
+**/migrations/
+
+# macOS files
+.DS_Store
+
+# Ignore compiled and installed packages
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+*.pyd
+*.o
